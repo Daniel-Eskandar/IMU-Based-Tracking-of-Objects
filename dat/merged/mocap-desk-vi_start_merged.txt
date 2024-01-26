@@ -1,1 +1,0 @@
-time(us) gx(rad/s) gy(rad/s) gz(rad/s) ax(m/s^2) ay(m/s^2) az(m/s^2) temperature px py pz qx qy qz qw
