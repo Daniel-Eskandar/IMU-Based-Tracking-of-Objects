@@ -3,7 +3,7 @@
 ---
 ![](docs/figs/method_position.png)
 
-Abstract. Existing methods for inferring pose estimation from IMU
+Existing methods for inferring pose estimation from IMU
 measurements typically employ either multiple IMUs or integrate IMUs
 with additional sensors like cameras or LiDAR. Recent work involves
 data-driven approaches utilizing deep learning models such as CNNs and
