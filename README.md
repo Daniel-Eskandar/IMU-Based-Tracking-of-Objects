@@ -1,1 +1,1 @@
-# IMU-Based-Tracking-of-Objects
+# TRIM - TRansformers for tracking Inertial Measurements
