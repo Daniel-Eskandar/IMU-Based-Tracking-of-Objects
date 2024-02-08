@@ -22,17 +22,15 @@ python3, numpy, scipy, pandas, matplotlib, torch, torchvision, tqdm
 ### Data 
 The dataset used by this project is the Visual-Inertial Event Dataset (TUM-VIE), which is publicly accesible from https://cvg.cit.tum.de/data/datasets/visual-inertial-event-dataset
 
-You can use utils/load_dataset.py to get a dataloader. 
-
 ### Usage:
 1. Clone the repository.
 2. Position Networks 
     1. To train/test **RoNIN ResNet** model:
-        * run ```src/ronin_resnet.py``` 
+        * run ```src/ronin_resnet_baseline.py``` 
     2. To train/test **RoNIN Transformer**:
-        * run ```src/ronin_transformer.py``` 
+        * run ```src/train_transformer_encoder_cls_token.py``` 
 3. Heading Network
-    * run ```src/heading.py``` 
+    * run ```src/train_transformer_quaternions.py``` 
 
 ### Acknowledgements
 Our work builds upon the following paper:
